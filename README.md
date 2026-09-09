@@ -1,15 +1,15 @@
-# 🌤️ Weather CLI
+# Weather CLI
 
 A simple Python command-line tool to check the weather for any city, right from your terminal.
 
-## ✨ Features
+## Features
 
 - Current weather for any city (temperature, humidity, wind speed)
 - 5-day forecast displayed as a table
 - Clean, colorful terminal output powered by `rich`
 - Lightweight — no configuration files needed
 
-## 📦 Installation
+## Installation
 
 ```bash
 git clone https://github.com/your-username/weather-cli.git
@@ -17,7 +17,7 @@ cd weather-cli
 pip install -r requirements.txt
 ```
 
-## 🔑 API Key
+## API Key
 
 This project uses the free [OpenWeatherMap](https://openweathermap.org/api) API.
 
@@ -31,7 +31,7 @@ API_KEY = "YOUR_API_KEY_HERE"
 
 with your own key.
 
-## 🚀 Usage
+## Usage
 
 Get the current weather:
 
@@ -51,12 +51,12 @@ python weather.py "Baku" --forecast
 - [requests](https://pypi.org/project/requests/) — for making API calls
 - [rich](https://pypi.org/project/rich/) — for beautiful terminal output
 
-## 📌 Roadmap
+## Roadmap
 
 - [ ] Compare weather across multiple cities at once
 - [ ] Export results to CSV/JSON
 - [ ] Plot temperature trends with matplotlib
 
-## 📄 License
+## License
 
 MIT
